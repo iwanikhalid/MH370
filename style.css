@@ -16,7 +16,6 @@ ul, li { list-style: none; }
 img { border: none; }
 
 /******** STRUCTURE & SPECIFICS *****************/
-
 body { padding: 40px 0 0 0; margin: 0; background: transparent url(img/bg.jpg) no-repeat center top; width: 100%; display: table; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #444; text-align: center; }
 
 .wrap { padding: 0; width: 960px; background: #fff; margin: 0 auto; text-align: left; 
@@ -98,7 +97,7 @@ body { padding: 40px 0 0 0; margin: 0; background: transparent url(img/bg.jpg) n
 	
 	.main { float: left; width: 684px; padding: 0 25px 0 20px; }
 	
-#footer  { padding: 35px 0; font-size: 0.8em; text-align: center; color: #000; background: #eee; }
+#footer  { padding: 35px 0; font-size: 0.8em; text-align: center; color: #000; background: #eee url(img/footerbg.gif) repeat-x; }
 
 /* style, variant, weight, size, line-height, family */
 
