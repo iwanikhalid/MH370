@@ -43,7 +43,7 @@ body { padding: 40px 0 0 0; margin: 0; background: transparent url(img/bg.jpg) n
 #content { padding: 20px 0; min-height: 400px; height: auto !important; height: 400px;  }
 	.inside #content { padding: 15px 20px 15px 7px; }
 	
-	.content-front { padding: 0 0 0 15px; }
+	.content-front { width: 735px; padding: 0 0 0 15px; }
 	
 	.announcement { padding: 2%; width: 70%; margin: 0 auto 20px auto; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
 	.announcement span#closeBtn { cursor: pointer; background: url(img/close.png) no-repeat; padding: 0 0 0 20px; }
