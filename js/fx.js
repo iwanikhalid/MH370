@@ -10,5 +10,9 @@ jQuery(document).ready(function($) {
 			hoverPause: true
 		});
 	});
+	
+	$( ".announcement span#closeBtn" ).click(function() {
+		$( ".announcement" ).hide();
+	});
 
 });

@@ -56,14 +56,6 @@
 		</div>
 
 		<div id="banner">
-			<div id="search">
-				<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-					<div><label class="screen-reader-text" for="s">Search for:</label>
-						<input type="text" value="What to search?" name="s" id="s" />
-						<input type="submit" id="searchsubmit" value="Search" />
-					</div>
-				</form>
-			</div>
 			<div id="slideshow">
 				<div id="slides">
 					<div class="slides_container">
@@ -81,10 +73,15 @@
 <!-- end of header -->
 			<div class="clearfix">
 				<div class="announcement">
-					Transparency Statement
+					<h2>Transparency Statement</h2>
+					<p>The word "transparent" can be used to describe high-quality financial statements. The term has quickly become a part of business vocabulary. Dictionaries offer many definitions for the word, but those synonyms relevant to financial reporting are: "easily understood," "very clear," "frank" and "candid."</p>
+					<p><span id="closeBtn">Hide</span></p>
 				</div>
-				<!-- dynamic sidebar -->
-				<div class="floatl sidebar-front">
+				<div class="floatr sidebar-front">
+					<div class="widget"> 
+						<h3 class="widgettitle">Map</h3>
+						<a href="#"><img src="img/map.gif" /></a>
+					</div>				
 					<div class="widget recent-news">
 						<h3 class="widgettitle">Recent News</h3>
 						<ul>
@@ -105,17 +102,21 @@
 							</li>							 
 						</ul>
 					</div>
-					<div class="widget"> 
-						<h3 class="widgettitle">Map</h3>
-						<a href="#"><img src="img/map.gif" /></a>
+				</div>
+				
+				<div class="floatl content-front">
+					<h3>Search form temporary parking!</h3>
+					<div id="search">
+						<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+							<div><label class="screen-reader-text" for="s">Search for:</label>
+								<input type="text" value="What to search?" name="s" id="s" />
+								<input type="submit" id="searchsubmit" value="Search" />
+							</div>
+						</form>
 					</div>
 				</div>
-				<!-- end dynamic sidebar -->
-				<div class="floatl content-front">
-					Content
-				</div>
 			</div>
-			<!-- dynamic sidebar -->
+	
 			<div class="sidebar-footer">
 				<div class="widget videospree"> 
 					Video Highlights
@@ -124,8 +125,6 @@
 					Past Press Conferences
 				</div>
 			</div>
-			<!-- end dynamic sidebar -->
-<!-- end of index -->
 		</div>
 		<div id="footer">&copy; 2014. MH370 OFFICIAL NEWSROOM by DCA MALAYSIA. </div>
 	</div>
