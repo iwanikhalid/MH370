@@ -43,7 +43,13 @@ body { padding: 40px 0 0 0; margin: 0; background: transparent url(img/bg.jpg) n
 #content { padding: 20px 0; min-height: 400px; height: auto !important; height: 400px;  }
 	.inside #content { padding: 15px 20px 15px 7px; }
 	
-	.content-front { width: 735px; padding: 0 0 0 15px; }
+	.content-front { width: 715px; padding: 16px 20px 0 15px; }
+		.post h2 a { color: #9aaecc; text-decoration: none; }
+		.post h2 a:hover { color: #000; }
+		.post h2 a:visited { color: #9aaecc; }
+		.post { padding: 10px; border-bottom: 1px solid #ccc; }
+		.entry { padding: 10px 0; }
+		.post small { font-weight: bold; }
 	
 	.announcement { padding: 2%; width: 70%; margin: 0 auto 20px auto; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
 	.announcement span#closeBtn { cursor: pointer; background: url(img/close.png) no-repeat; padding: 0 0 0 20px; }
@@ -117,8 +123,8 @@ a:hover { color: #000;  }
 .clearfix {display: block;}
 /* End hide from IE-mac */
 
-img.floatl { margin: 0 10px 0 0; }
-img.floatr { margin: 0 0 0 10px; }
+img.floatl, img.alignleft { float: left; margin: 0 10px 0 0; }
+img.floatr , img.alignright { float: right; margin: 0 0 0 10px; }
 
 .floatl { float: left; }
 .floatr { float: right; }
@@ -145,6 +151,11 @@ h1.pagetitle { }
 blockquote { font: normal normal 18px/22px Georgia; color: #909090; margin: 0 0 10px 0; }
 
 /*************** Pagination styles */
+
+.wp-pagenavi { margin: 15px 0; clear: both; }
+.wp-pagenavi a, .wp-pagenavi span { text-decoration: none; border: 1px solid #BFBFBF; padding: 3px 5px; margin: 2px; }
+.wp-pagenavi a:hover, .wp-pagenavi span.current { border-color: #000; }
+.wp-pagenavi span.current { font-weight: bold; }
 
 .pagiwrap { text-align: center; margin: 20px 0; }
 .pagiwrap p { color: #7a7a7a; margin: 20px 0; }
