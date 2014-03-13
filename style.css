@@ -46,17 +46,8 @@ body { padding: 40px 0 0 0; margin: 0; background: #fff url(img/bg.jpg) no-repea
 			#search input#searchsubmit { background: url(img/search.gif) no-repeat; width: 23px; height: 23px; text-indent: -9999px; border: none; position: absolute; top: 11px; right: 8px; }
 #content { min-height: 400px; height: auto !important; height: 400px;  }
 	.inside #content { padding: 15px 20px 15px 7px; }
-	.highlights { padding: 43px 41px 53px; }
-	.highlight { position: relative; margin: 0 43px 0 0; border: 1px solid #dbdfde; float: left; width: 262px; height: 322px; overflow: hidden; 
-				-webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
-				-moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
-				box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;	
-	}
-	.highlight:last-child { margin: 0; }
-	.highlight h3 { padding: 10px 0 0 0; text-align: center; }
-	.highlight a { position: absolute; bottom: 10px; margin-left: 12px; display: block; background: #bc0f0a; color: #fff; text-decoration: none; text-transform: uppercase; width: 28%; font-size: 0.7em; padding: 5px; }
-	.highlight a:hover { background: #5383c4; color: #fff; text-decoration: none; }
-	.highlight p { padding: 20px 12px 10px; font-size: 0.9em; line-height: 1.5em; }
+	
+	.sidebar-front { width: 210px; }
 	
 	.breadcrumb { padding: 0 0 15px 15px; }
 	.breadcrumb a { text-decoration: none; }
