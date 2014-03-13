@@ -223,3 +223,26 @@ html>body .pagination { padding: 0; }
 	float: left;
 }
 /* End Fix */
+
+/* Media Queries */
+@media screen and (max-width: 320px) {
+.wrap , #nav, html , body { width: 100%; }
+html, body { margin: 0; overflow-x: hidden; }
+#header, .page-banner { height: auto; }
+.page-banner { display: none; }
+img.mosti { display: none; }
+.floatl, .floatr, .highlight { float: none; }
+#banner{ display: none; }
+.menu li { float: none; display: inline-block;}
+#nav { margin: 2% 0; }
+#nav .sub-menu { display: none; }
+#nav li#menu-item-46 { display: none; }
+.menu a { padding: 10px 8px; }
+.menu li:last-child a { padding-left: 6px; padding-right: 0px; }
+.highlights { padding: 2%; }
+.inside #content{ padding: 0 2% 2% 2%; }
+.main { width: 100%; padding: 2%; }
+.breadcrumb { display: none; }
+.sidebar { width: 100%; }
+img.wp-image-93  { width: 300px; height: 200px; }
+}
