@@ -30,7 +30,7 @@
 				
 				<div class="floatr" id="nav">
 					<ul class="menu adxm">
-						<li class="active"><a href="#">Home</a></li>
+						<li class="current_page_item"><a href="#">Home</a></li>
 						<li><a href="#">News</a>
 							<ul>
 								<li><a href="#">Local</a></li>
@@ -56,6 +56,14 @@
 		</div>
 
 		<div id="banner">
+			<div id="search">
+				<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+					<div><label class="screen-reader-text" for="s">Search for:</label>
+						<input type="text" value="What to search?" name="s" id="s" />
+						<input type="submit" id="searchsubmit" value="Search" />
+					</div>
+				</form>
+			</div>
 			<div id="slideshow">
 				<div id="slides">
 					<div class="slides_container">
